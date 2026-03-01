@@ -12,6 +12,9 @@ No environment variables required.
 ## Category
 Developer Tools
 
+## Use Cases
+Testing, Prototyping, Demo data, Database seeding, UI development
+
 ## Features
 Generate realistic user profiles with names, emails, phones, addresses, and usernames across multiple locales (US, UK, Germany, Japan)
 Create fake company profiles with industry, revenue, employee count, and websites
@@ -21,15 +24,15 @@ Generate placeholder text in multiple formats: lorem ipsum, sentences, paragraph
 Build fully custom datasets with 14+ column types and export as JSON or CSV
 
 ## Getting Started
-generate_users: Create realistic user profiles with configurable fields and locale support
-generate_companies: Generate company profiles with industry filtering
-generate_transactions: Create financial transactions with date ranges and currency support
-generate_addresses: Generate region-specific addresses with GPS coordinates
-generate_text: Produce placeholder text in various formats
-generate_dataset: Build custom datasets with user-defined schemas and 14+ data types
+"Generate 10 fake users" → Tool: generate_users
+"Create a dataset of 50 transactions" → Tool: generate_transactions
+"Make a CSV with custom columns: name, email, score" → Tool: generate_dataset
+Tool: generate_companies: Create company profiles with industry and revenue
+Tool: generate_addresses: Generate addresses with GPS coordinates for any country
+Tool: generate_text: Produce lorem ipsum or realistic placeholder paragraphs
 
 ## Tags
 fake-data, testing, mock-data, test-data, development, data-generation, faker, sample-data, prototyping, developer-tools
 
 ## Documentation URL
-https://pypi.org/project/fakedata-mcp/
+https://github.com/gmoneyn/fakedata-mcp
